@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  dipsi_docker:
+    image: fahrezaisnanto/dipsi-undip:0.0.1
+    container_name: dipsi-undip
+    restart: unless-stopped
+    ports:
+      - "80:8000"

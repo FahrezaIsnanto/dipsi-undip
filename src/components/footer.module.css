@@ -1,0 +1,18 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: .7em;
+    text-align: center;
+}
+
+.footer a {
+    font-family: 'Viga', sans-serif;
+    text-decoration: none;
+    color: lightblue;
+}
+
+@media screen and (min-width:600px) {
+    .footer{
+        padding-top: 10px;
+    }
+}
